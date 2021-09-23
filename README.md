@@ -1,5 +1,12 @@
 # Professional Coding Portfolio
 
+## Basis
+Mekayla Trujillo's professional portfolio showcasing an about section of the developer, a section showcasing her latest work, and a contact section housing her social media sites and a form section inquiring about questions or references of her work. 
+
+## Developed with
+- HTML
+- CSS
+
 # User Story
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
