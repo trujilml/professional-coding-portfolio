@@ -11,9 +11,20 @@
     margin: 0;
     box-sizing: border-box;
  }
+
+ html {
+     scroll-behavior: smooth;
+ }
  
  body {
      background-color: lavenderblush;
      font-family: Helvetica;
  }
 
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}

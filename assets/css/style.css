@@ -1,11 +1,16 @@
 header {
     padding: var(--padding1);
     background-color: lavender;
-    color: var(--purple);
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-flow: row nowrap;
     align-items: center;
+}
+
+.namelogo {
+    flex: 1 0 auto;
+    font-weight: 10;
+    color: var(--purple);
 }
 
 header a {
@@ -13,10 +18,11 @@ header a {
     color: var(--purple);
 }
 
-header nav ul {
+header nav ul li {
+    display: flex;
+    justify-content: center;
     list-style: none;
-    padding: 0;
-    margin: 0;
+    margin: auto;
 }
 
 header nav ul li a:hover {
@@ -28,7 +34,7 @@ header nav ul li a:active {
     color: var(--darkpurple);
 }
 
-.Aboutme {
+.about-me {
     background-color: var(--purple);
     border: 3px solid darkorchid;
     border-radius: var(--border1);
@@ -38,24 +44,33 @@ header nav ul li a:active {
     justify-content: flex-end;
 }
 
-.About-Intro h2 {
-    align-content: flex-end;
-}
-
-
-.About-Info img {
+.Info img {
   display: flex;
   margin-left: 15px;
   border-radius: var(--border1);
 }
 
-
-.About-Info {
+.Info p {
     text-align: right;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
-    padding: 15px;
-    margin-bottom: 10px;
+    padding: var(--padding1);
+}
+
+.work-showcase {
+    background-color: rgb(255, 214, 221);
+    border: 3px solid rgb(255, 146, 191);
+    border-radius: var(--border1);
+    color: var(--white);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.Siteinfo img {
+    border-radius: var(--border1);
+    width: 45%;
 }
 
 footer {
@@ -64,7 +79,9 @@ footer {
     color: var(--purple);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 768px) {
