@@ -35,7 +35,7 @@
     <div class="Intro">
         <h2>ABOUT</h2>
         </div>
-        <div class="Info">
+        <div class="Basicinfo">
         <img src= "assets/images/person-placeholder.jpeg" alt="placeholder of the developer" title="Mekayla Trujillo" />
         <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus repellendus maiores nemo hic itaque, fugit doloremque 
@@ -88,7 +88,38 @@
     </section>
 </section>
 
+<section id="Contact" class="contact-info">
+    <div class="Intro">
+        <h2>CONTACT</h2>
+    </div>
 
+    <section class="Links">
+        <h3>Meet me at</h3>
+        <ul>
+            <li><a href="https://github.com/trujilml">GitHub</a></li>
+            <li>LinkedIn</li>
+            <li>CodePen</li>
+            <li>Stack Overflow</li>
+        </ul>
+    </section>
+
+    <div class="contact-form">
+        <h3>Feel free to send a message: </h3>
+        <form>
+            <label for="contact-name">Name: </label>
+            <input type="text" id="contact-name" placeholder="Your Name" />
+
+            <label for="contact-email">Email: </label>
+            <input type="email" id="contact-email" placeholder="Email" />
+
+            <label for="contact-message">Message: </label>
+            <textarea id="contact-message" placeholder="Message"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</section>
 
 
 
@@ -97,8 +128,11 @@
 <footer>
     <p>Coded by Mekayla Trujillo</p> 
     <br />
+    <button onclick="topFunction()" class="TopButton" title="Go to top of the page" placeholder="Return to top page">Top</button>
+    <br />
     <p>2021 - All Rights Reserved.</p>
 </footer>
 
+<script src="assets/js/function.js"></script>
 </body>
 </html>

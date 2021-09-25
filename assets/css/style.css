@@ -44,13 +44,13 @@ header nav ul li a:active {
     justify-content: flex-end;
 }
 
-.Info img {
+.Basicinfo img {
   display: flex;
   margin-left: 15px;
   border-radius: var(--border1);
 }
 
-.Info p {
+.Basicinfo p {
     text-align: right;
     font-size: 20px;
     line-height: 1.5;
@@ -73,6 +73,30 @@ header nav ul li a:active {
     width: 45%;
 }
 
+.contact-info {
+    background-color: rgb(209, 236, 255); 
+    border: 3px solid rgb(93, 204, 255);
+    border-radius: var(--border1);
+    color: var(--white);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+  
+}
+
+.Links ul li {
+    list-style: none;
+    display: flex;
+    margin: auto;
+}
+
+
+.Links ul li a:hover {
+    color: var(--white);
+    text-shadow: none;
+}
+
+
 footer {
     padding: var(--padding1);
     background-color: lavender;
@@ -83,6 +107,8 @@ footer {
     flex-wrap: wrap;
     font-size: 20px;
 }
+
+
 
 @media screen and (max-width: 768px) {
     header {
