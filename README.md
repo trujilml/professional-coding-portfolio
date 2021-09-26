@@ -6,6 +6,7 @@ Mekayla Trujillo's professional portfolio showcasing an about section of the dev
 ## Developed with
 - HTML
 - CSS
+- Javascript
 
 # User Story
 AS AN employer

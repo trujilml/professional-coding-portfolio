@@ -42,6 +42,20 @@ header nav ul li a:active {
     font-size: var(--font-size1);
 }
 
+a.utlink {
+    text-decoration: none;
+    color: var(--white);
+}
+
+a.utlink:hover {
+    color: var(--darkpurple);
+    text-shadow: none;
+}
+
+a.utlink:active {
+    color: var(--purple);
+}
+
 .Basicinfo {
     height: auto;
     padding: 50px;
@@ -55,7 +69,7 @@ header nav ul li a:active {
 .Basicinfo p {
     flex: 1 1 200px;
     height: 100px;
-    line-height: 2;
+    line-height: 2.5;
     padding: 50px;
 }
 
@@ -96,12 +110,25 @@ header nav ul li a:active {
     width: 35%;
 }
 
-
 .row2 p {
     display: block;
+    margin-left: 10px;
 }
 
 
+a.run-buddy, a.horiseon {
+    text-decoration: none;
+    color: var(--white);
+}
+
+a.run-buddy:hover, a.horiseon:hover {
+    color:rgb(255, 113, 172);
+    text-shadow: none;
+}
+
+a.run-buddy:active, a.horiseon:active {
+    color:rgb(255, 214, 221);
+}
 
 .contact-info {
     background-color: rgb(209, 236, 255); 
@@ -112,7 +139,6 @@ header nav ul li a:active {
     flex-flow: wrap;
     justify-content: space-around;
     font-size: var(--font-size1);
-  
 }
 
 .links nav ul li {

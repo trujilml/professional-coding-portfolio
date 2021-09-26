@@ -5,6 +5,7 @@
     --darkpurple: purple; 
     --border1: 15px;
     --font-size1: 20px;
+    --overallback: lavenderblush;
     --mainback: lavender; 
 }
 
@@ -18,7 +19,7 @@
  }
  
  body {
-     background-color: lavenderblush;
+     background-color: var(--overallback);
      font-family: Helvetica;
  }
 
