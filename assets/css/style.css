@@ -1,10 +1,12 @@
 header {
     padding: var(--padding1);
-    background-color: lavender;
+    background-color: var(--mainback);
     display: flex;
     justify-content: space-between;
     flex-flow: row nowrap;
     align-items: center;
+    border: 3px solid rgb(222, 208, 255);
+    border-radius: var(--border1);
 }
 
 header a {
@@ -84,17 +86,21 @@ header nav ul li a:active {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: nowrap;
-    align-items: flex-start;
+    align-items: flex-end;
+    position: relative;
 }
 
 .row2 img {
+    display: block;
     border-radius: var(--border1);
-    /*width: 30%;*/
+    width: 35%;
 }
 
-/*.row2 p {
 
-}*/
+.row2 p {
+    display: block;
+}
+
 
 
 .contact-info {
@@ -128,17 +134,34 @@ label {
     color: var(--white);
 }
 
+.links nav ul li a:hover {
+    color: var(--darkpurple);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input#contact-name, #contact-email, textarea#contact-message {
+    background-color: var(--mainback);
+    border: 3px solid rgb(222, 208, 255);
+    border-radius: var(--border1);
+    font-family: Helvetica;
+}
 
 
 footer {
     padding: var(--padding1);
-    background-color: lavender;
+    background-color: var(--mainback);
     color: var(--purple);
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     font-size: var(--font-size1);
+    border: 3px solid rgb(222, 208, 255);
+    border-radius: var(--border1);
 }
 
 
