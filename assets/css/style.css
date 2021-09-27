@@ -39,6 +39,7 @@ header nav ul li a:active {
     display: flex;
     flex-flow: wrap;
     justify-content: space-around;
+    align-items: center;
     font-size: var(--font-size1);
 }
 
@@ -67,15 +68,15 @@ a.utlink:active {
   }
 
 .Basicinfo p {
-    flex: 1 1 200px;
+    flex: 1 1 100px;
     height: 100px;
     line-height: 2.5;
-    padding: 50px;
+    padding: 25px;
 }
 
 .Basicinfo img {
     border-radius: var(--border1);
-    width: 30%;
+    width: 50%;
 }
 
 .work-showcase {
@@ -98,9 +99,9 @@ a.utlink:active {
 .row2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: nowrap;
-    align-items: flex-end;
+    align-items: center;
     position: relative;
 }
 
@@ -108,13 +109,15 @@ a.utlink:active {
     display: block;
     border-radius: var(--border1);
     width: 35%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .row2 p {
     display: block;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-
 
 a.run-buddy, a.horiseon {
     text-decoration: none;
@@ -190,14 +193,29 @@ footer {
     border-radius: var(--border1);
 }
 
-
+@media screen and (max-width: 980px) {
+    /* adjust work section */
+}
 
 @media screen and (max-width: 768px) {
     header {
+        padding-top: 0;
         padding-bottom: 0;
     }
 }
 
 @media screen and (max-width: 575px) {
+    header {
+        align-items: center;
+    }
+    .Basicinfo img {
+        height: 150px;
+        width: 200px;
+    }
+    .Basicinfo p {
+        height: auto;
+        padding: 0;
+        line-height: 1.5;
+    }
  /* adjust p size for about section*/
 }
