@@ -108,6 +108,7 @@ a.utlink:active {
 .row2 img {
     display: block;
     border-radius: var(--border1);
+    border: 3px solid rgb(255, 146, 191);
     width: 35%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -205,6 +206,10 @@ footer {
 }
 
 @media screen and (max-width: 575px) {
+    * {
+        box-sizing: none;
+    }
+    
     header {
         align-items: center;
     }
@@ -217,5 +222,28 @@ footer {
         padding: 0;
         line-height: 1.5;
     }
- /* adjust p size for about section*/
+    .siteinfo {
+        padding: 0;
+    }
+    .row2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .row2 img {
+        width: 225px;
+        height: 200px;
+    }
+    .row2 p {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-form {
+        flex-direction: row; 
+        flex-wrap: wrap;
+    }
+    
 }
