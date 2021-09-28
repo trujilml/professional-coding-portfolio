@@ -105,13 +105,11 @@ a.utlink:active {
     position: relative;
 }
 
+/* edited for image to enlarge and hover over! */
 .row2 img { 
-     display: block; 
-     border-radius: var(--border1); 
+    display: block;
+    border-radius: var(--border1); 
     border: 3px solid rgb(255, 146, 191); 
-    width: 35%; 
-    margin-top: 20px; 
-    margin-bottom: 20px; 
  } 
 
 .row2 p {
@@ -119,12 +117,6 @@ a.utlink:active {
     margin-left: 20px;
     margin-right: 20px;
 }
-
-/* .row-2 a:hover { */
-    /* background-size: 100% 100%; */
-    /* transition: all 0.25s ease-in; */
-    /* color:rgb(255, 80, 153); */
-/* } */
 
 a.run-buddy, a.horiseon, a.robot-game, a.alien, a.singer, a.cute {
     text-decoration: none;
