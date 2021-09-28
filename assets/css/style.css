@@ -105,14 +105,14 @@ a.utlink:active {
     position: relative;
 }
 
-.row2 img {
-    display: block;
-    border-radius: var(--border1);
-    border: 3px solid rgb(255, 146, 191);
-    width: 35%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+.row2 img { 
+     display: block; 
+     border-radius: var(--border1); 
+    border: 3px solid rgb(255, 146, 191); 
+    width: 35%; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+ } 
 
 .row2 p {
     display: block;
@@ -120,17 +120,23 @@ a.utlink:active {
     margin-right: 20px;
 }
 
-a.run-buddy, a.horiseon {
+/* .row-2 a:hover { */
+    /* background-size: 100% 100%; */
+    /* transition: all 0.25s ease-in; */
+    /* color:rgb(255, 80, 153); */
+/* } */
+
+a.run-buddy, a.horiseon, a.robot-game, a.alien, a.singer, a.cute {
     text-decoration: none;
     color: var(--white);
 }
 
-a.run-buddy:hover, a.horiseon:hover {
+a.run-buddy:hover, a.horiseon:hover, a.robot-game:hover, a.alien:hover, a.singer:hover, a.cute:hover {
     color:rgb(255, 113, 172);
     text-shadow: none;
 }
 
-a.run-buddy:active, a.horiseon:active {
+a.run-buddy:active, a.horiseon:active, a.robot-game:active, a.alien:active, a.singer:active, a.cute:active {
     color:rgb(255, 214, 221);
 }
 
