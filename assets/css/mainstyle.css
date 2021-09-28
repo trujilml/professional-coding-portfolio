@@ -32,11 +32,11 @@
     font-size: 20px;
 }
 
-button {
+.submitbutton {
     display: flex;
     position: sticky;
     z-index: 99;
-    border: 2px solid rgb(160, 121, 197);;
+    border: 2px solid rgb(160, 121, 197);
     border-radius: var(--border1);
     background-color: rgb(160, 121, 197);
     padding: 5px;
@@ -44,7 +44,7 @@ button {
     font-size: 15px;
 }
 
-button:hover {
+.submitbutton:hover {
     background-color: var(--darkpurple);
 }
 
@@ -53,6 +53,7 @@ button:hover {
     justify-content: center;
     position: sticky;
     z-index: 99; 
+    border: 2px solid rgb(160, 121, 197);
     background-color: rgb(160, 121, 197);
     color: var(--white); 
     padding: 10px; /* Some padding */
