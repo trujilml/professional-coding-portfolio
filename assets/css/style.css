@@ -197,10 +197,42 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    header {
-        padding-top: 0;
-        padding-bottom: 0;
+    * { 
+    box-sizing: border-box;
+    margin: 10px 10px;
+    padding: 0;
     }
+    .Basicinfo img {
+        height: 300px;
+        width: 500px;
+    }
+    .Basicinfo p {
+        height: auto;
+        padding: 0;
+        line-height: 1.5;
+    }
+    .siteinfo {
+        padding: 0;
+    }
+    .row2 {
+        flex-direction: column;
+    }
+
+    .row2 p {
+        align-items: center;
+    }
+
+    .contact-info {
+        flex-wrap: nowrap;
+    }
+    textarea#contact-message {
+        padding: 50px;
+        margin: 20px;
+    }
+    button.submitbutton {
+        margin-left: 118px;
+        margin-bottom: 20px;
+     }
 }
 
 @media screen and (max-width: 575px) {
@@ -212,8 +244,8 @@ footer {
         align-items: center;
     }
     .Basicinfo img {
-        height: 150px;
-        width: 200px;
+        height: 200px;
+        width: 250px;
     }
     .Basicinfo p {
         height: auto;
@@ -244,7 +276,7 @@ footer {
         margin-right: 30px;
     }
     h4 {
-        margin-left: 60px;
+        margin-left: 20px;
     }
     label {
         margin-left: 20px;

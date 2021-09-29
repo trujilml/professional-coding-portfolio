@@ -35,7 +35,6 @@
 /* .zoom for work-image portfolio - hover enlarged image function! */
 
 .zoom {
-    background-color: rgb(255, 146, 191);
     border-radius: var(--border1); 
     transition: transform 1.5s;
   }
