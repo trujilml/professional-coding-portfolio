@@ -8,6 +8,10 @@ Mekayla Trujillo's professional portfolio showcasing an about section of the dev
 - CSS
 - Javascript
 
+## Links
+GitHub Repository - https://github.com/trujilml/professional-coding-portfolio
+Deployed Link - 
+
 # User Story
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
