@@ -9,8 +9,8 @@ Mekayla Trujillo's professional portfolio showcasing an about section of the dev
 - Javascript
 
 ## Links
-GitHub Repository - https://github.com/trujilml/professional-coding-portfolio
-Deployed Link - 
+- GitHub Repository - https://github.com/trujilml/professional-coding-portfolio
+- Deployed Link - https://trujilml.github.io/professional-coding-portfolio/
 
 # User Story
 AS AN employer
