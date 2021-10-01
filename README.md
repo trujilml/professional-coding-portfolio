@@ -18,7 +18,3 @@ https://trujilml.github.io/professional-coding-portfolio/
 ![Screenshot 1](professional-coding-portfolio1.png)
 ![Screenshot 2](professional-coding-portfolio2.png)
 ![Screenshot 3](professional-coding-portfolio3.png)
-
-# Acceptance Criteria
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
