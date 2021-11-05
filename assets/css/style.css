@@ -125,7 +125,7 @@ a.utlink:active {
     padding: 0 0 20px 0;
     text-decoration: none;
     background-blend-mode: soft-light;
-    background-size: 150%;
+    background-size: 100%;
     transition: all 0.5s;
     font-size: 0.8rem;
 }
@@ -137,7 +137,7 @@ a.utlink:active {
 }
 
 .grid-item:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .grid-item div {
@@ -148,29 +148,6 @@ a.utlink:active {
 
 .grid-item h3 {
     font-size: 1.4rem;
-}
-.taco-shop {
-    background-image: url("../images/top3tacoshop.png");
-}
-
-.password {
-    background-image: url("../images/passwordgenerator.png");
-}
-
-.workday {
-    background-image: url("../images/wordday-scheduler.png");
-}
-
-.codequiz {
-    background-image: url("../images/webapicodequiz.png");
-}
-
-.vacationweather {
-    background-image: url("../images/vacationweatherdashboard.png");
-}
-
-.gititdone {
-    background-image: url("../images/gititdone.png");
 }
 
 .contact-info {
@@ -207,7 +184,6 @@ label {
     color: var(--darkpurple);
 }
 
-
 footer {
     padding: var(--padding1);
     background-color: var(--mainback);
@@ -220,6 +196,14 @@ footer {
     border: 3px solid rgb(222, 208, 255);
     border-radius: var(--border1);
 }
+
+/* for github linked portfolio in name on footer */
+a.gitportfolio {
+    text-decoration: none;
+    color: var(--purple);
+}
+
+
 
 /* get started with readjusting mobile responsive */
 @media screen and (max-width: 1024px) {
