@@ -96,8 +96,6 @@ a.utlink:active {
     padding: 50px;
 }
 
-/* for work section - will modify to liking*/
-
 .grid-container {
     display: grid;
     column-gap: 20px;
@@ -132,11 +130,12 @@ a.utlink:active {
 }
 
 .grid-item:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .grid-item div {
-    background-color: var(--secondary);
+    background-color: rgb(255, 184, 196);
+    border-radius: 10px;
     padding: 8px 10px;
 }
 
@@ -175,20 +174,6 @@ a.utlink:active {
     align-items: center;
     position: relative;
 }
-
-/* edited for image to enlarge and hover over! */
-.row2 img { 
-    display: block;
-    border-radius: var(--border1); 
-    border: 3px solid rgb(255, 146, 191); 
- } 
-
-.row2 p {
-    display: block;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
 
 .contact-info {
     background-color: rgb(209, 236, 255); 

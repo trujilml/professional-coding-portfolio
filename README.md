@@ -15,6 +15,4 @@ https://github.com/trujilml/professional-coding-portfolio
 https://trujilml.github.io/professional-coding-portfolio/
 
 # Screenshots
-![Screenshot 1](professional-coding-portfolio1.png)
-![Screenshot 2](professional-coding-portfolio2.png)
-![Screenshot 3](professional-coding-portfolio3.png)
+<!-- add new screenshots  -->
