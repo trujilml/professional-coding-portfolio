@@ -96,6 +96,77 @@ a.utlink:active {
     padding: 50px;
 }
 
+/* for work section - will modify to liking*/
+
+.grid-container {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(150px, 1fr);
+}
+
+.grid-item {
+    border: 5px solid rgb(255, 146, 191);
+    border-radius: var(--border1);
+    grid-column: span 4;
+    background-color: rgb(255, 214, 221);
+    color: white;
+    min-height: 300px;
+    min-width: 300px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.8rem;
+}
+
+/* Grid Portfolio - Feature First Child */
+.grid-item:first-child {
+    grid-column: span 8;
+    grid-row: span 2;
+}
+
+.grid-item:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.grid-item div {
+    background-color: var(--secondary);
+    padding: 8px 10px;
+}
+
+.grid-item h3 {
+    font-size: 1.4rem;
+}
+.taco-shop {
+    background-image: url("../images/top3tacoshop.png");
+}
+
+.password {
+    background-image: url("../images/passwordgenerator.png");
+}
+
+.workday {
+    background-image: url("../images/wordday-scheduler.png");
+}
+
+.codequiz {
+    background-image: url("../images/webapicodequiz.png");
+}
+
+.vacationweather {
+    background-image: url("../images/vacationweatherdashboard.png");
+}
+
+.gititdone {
+    background-image: url("../images/gititdone.png");
+}
+
 .row2 {
     display: flex;
     flex-direction: row;
@@ -118,19 +189,6 @@ a.utlink:active {
     margin-right: 20px;
 }
 
-a.run-buddy, a.horiseon, a.taskinator, a.alien, a.singer, a.cute, a.futuregroup {
-    text-decoration: none;
-    color: var(--white);
-}
-
-a.run-buddy:hover, a.horiseon:hover, a.taskinator:hover, a.alien:hover, a.singer:hover, a.cute:hover, a.futuregroup:hover {
-    color:rgb(255, 113, 172);
-    text-shadow: none;
-}
-
-a.run-buddy:active, a.horiseon:active, a.taskinator:active, a.alien:active, a.singer:active, a.cute:active, a.futuregroup:active {
-    color:rgb(255, 214, 221);
-}
 
 .contact-info {
     background-color: rgb(209, 236, 255); 
@@ -164,18 +222,6 @@ label {
 
 .links nav ul li a:hover {
     color: var(--darkpurple);
-}
-
-.contact-form {
-    display: flex;
-    flex-direction: column;
-}
-
-input#contact-name, #contact-email, textarea#contact-message {
-    background-color: var(--mainback);
-    border: 3px solid rgb(222, 208, 255);
-    border-radius: var(--border1);
-    font-family: Helvetica;
 }
 
 
