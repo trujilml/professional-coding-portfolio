@@ -7,28 +7,33 @@ header {
     align-items: center;
     border: 3px solid rgb(222, 208, 255);
     border-radius: var(--border1);
+    list-style: none;
+    text-decoration: none;
 }
 
-header a {
+header nav {
     text-decoration: none;
     color: var(--purple);
-}
-
-header nav ul li {
-    display: flex;
-    justify-content: center;
     list-style: none;
-    margin: auto;
     font-size: var(--font-size1);
 }
 
-header nav ul li a:hover {
-    color: var(--white);
-    text-shadow: none;
+header nav a {
+    color: var(--purple);
 }
 
-header nav ul li a:active {
+header nav a:hover {
+    color: var(--white);
+}
+
+header nav a:active {
     color: var(--darkpurple);
+}
+
+/* for header title only */
+a {
+    list-style: none;
+    text-decoration: none;
 }
 
 .about-me {
