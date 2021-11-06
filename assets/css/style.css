@@ -98,11 +98,6 @@ a.utlink:active {
     justify-content: center;
 }
 
-.siteinfo {
-    height: auto;
-    padding: 50px;
-}
-
 .grid-container {
     display: grid;
     column-gap: 20px;
@@ -172,10 +167,6 @@ a.utlink:active {
     text-decoration: none;
 }
 
-label {
-    color: var(--purple);
-}
-
 .links nav ul li a:hover {
     color: var(--white);
 }
@@ -206,17 +197,12 @@ a.gitportfolio {
 
 
 /* get started with readjusting mobile responsive */
+
 @media screen and (max-width: 1024px) {
-    .about-me {
-        font-size: 18px;
+    .Basicinfo p {
+        line-height: 2;
     }
-    .row2 {
-        flex-direction: column;
-    }
-    .contact-info {
-        display: flex;
-        justify-content: space-between;
-    }
+
 }
 
 @media screen and (max-width: 980px) {
@@ -224,73 +210,47 @@ a.gitportfolio {
         height: none;
         line-height: 2;
     }
-    .row2 {
-        flex-direction: column;
+
+    .grid-item {
+        min-height: 0px;
+        min-width: 0px;
+        font-size: 0.5rem;
     }
-  .contact-info { 
-       flex-direction: column;
-       align-items: center;
-  }
-  .contact-form {
-      align-items: center;
-  }
-  label {
-    margin-left: 20px;
-    margin-right: 20px;
-    }
-    input {
-        margin-bottom: 50px;
-    }
-    textarea#contact-message { 
-         margin: 1px 5px;
-     } 
-    button.submitbutton {
-        margin-left: 385px;
-        margin-bottom: 35px;
-     }
+
 }   
+
 @media screen and (max-width: 768px) {
     * { 
     box-sizing: border-box;
     margin: 10px;
     padding: 0;
     }
+
+    header nav a {
+        display: flex;
+    }
+    
     .Basicinfo img {
         height: 300px;
         width: 500px;
     }
-    .Basicinfo p {
+     .Basicinfo p {
         height: auto;
         padding: 0;
         line-height: 1.5;
+    } 
+  
+    .grid-container {
+        grid-template-columns: 0;
     }
-    .siteinfo {
-        padding: 0;
-    }
-    .row2 {
-        flex-direction: column;
+
+    .grid-item:first-child {
+    grid-column: span 4;
     }
     .contact-info {
         flex-wrap: nowrap;
     }
-    .contact-form {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    label {
-        margin-right: 30px;
-    }
-    textarea#contact-message { 
-        margin-left: 30px;
-        margin-top: 20px;
-        padding: 50px;
-    } 
-    button.submitbutton {
-        margin-left: 290px;
-        margin-bottom: 10px;
-     }
+
 }
 
 @media screen and (max-width: 575px) {
@@ -301,6 +261,7 @@ a.gitportfolio {
     header {
         align-items: center;
     }
+
     .Basicinfo img {
         height: 200px;
         width: 250px;
@@ -310,57 +271,12 @@ a.gitportfolio {
         padding: 0;
         line-height: 1.5;
     }
-    .siteinfo {
-        padding: 0;
-    }
-    .row2 {
-        flex-direction: column;
-        align-items: center;
-    }
-    .row2 img {
-        width: 225px;
-        height: 200px;
-    }
-    .row2 p {
-        display: flex;
-        flex-direction: column;
-    }
+ 
     .contact-info {
         flex-direction: column;
         align-items: center;
     }
-    .links#h3 
-    {
-        margin-right: 30px;
-    }
-    h4 {
-        margin-left: 20px;
-    }
-    label {
-        margin-left: 20px;
-        margin-right: 12px;
-    }
-    input {
-        margin-left: 5px;
-        margin-bottom: 10px;
-    }
-    textarea#contact-message {
-        padding: 50px;
-        margin: 20px;
-    }
-    textarea#placeholder {
-        display: flex;
-    }
-    button.submitbutton {
-       margin-left: 118px;
-       margin-bottom: 20px;
-    }
-   .TopButton {
-     margin-left: 100px;
-   }
-   footer p {
-      margin-left: 5px;
-   }
+
 }
 
 @media screen and (max-width: 540px) {
@@ -402,87 +318,11 @@ a.gitportfolio {
       }
 }
 
-
-
-
-
-
-
 @media screen and (max-width: 414px) {
-    .namelogo {
-        display: flex;
-        justify-content: center;
-        font-size: 30px;
-    }
+
     .Basicinfo img {
         width: 250px;
         height: 250px;
     }
-    label {
-        margin-left: 60px;
-    }
-    textarea#contact-message {
-        margin: 75px;
-      }
-      button.submitbutton {
-        margin-left: 175px;
-    }
-    .TopButton {
-        margin-left: 25px;
-    }
-}
 
-
-@media screen and (max-width: 375px) {
-    * {
-        margin: 0;
-    }
-    .Basicinfo img {
-        width: 250px;
-        height: 250px;
-    }
-    h2 {
-        margin-bottom: 10px;
-    }
-    input {
-        margin-right: 20px;
-    }
-    button.submitbutton {
-        margin-left: 175px;
-    }
-    footer {
-        justify-content: center;
-    }
-    footer p {
-        margin: 10px;
-    }
-    .TopButton {
-        margin-left: 10px;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .Basicinfo img {
-        width: 250px;
-        height: 250px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    footer p {
-        margin: 0;
-    }
-}
-
-@media screen and (max-width: 280px) {
-    .Basicinfo img {
-        width: 200px;
-        height: 200px;
-    }
-    h4 {
-        margin: 0;
-    }
-    footer p {
-        font-size: 18px;
-    }
 }
