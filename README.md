@@ -15,7 +15,6 @@ https://github.com/trujilml/professional-coding-portfolio
 https://trujilml.github.io/professional-coding-portfolio/
 
 # Screenshots
-Redesigned portfolio (featured in second screenshot) highlights work webpage and if clicked, takes the user to the deployed website.
 ![Screenshot 1](./assets/resources/portfolio1.png)
 ![Screenshot 2](./assets/resources/portfolio2.png)
 ![Screenshot 3](./assets/resources/portfolio3.png)
