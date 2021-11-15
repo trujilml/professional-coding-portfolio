@@ -125,11 +125,11 @@ a.utlink:active {
     font-size: 0.8rem;
 }
 
-/* feature for major project */
-.grid-item:first-child {
-    grid-column: span 8;
+/* feature for major project - commented out to feature github repository link*/
+ /* .grid-item:first-child {
+    grid-column: span 6;
     grid-row: span 2;
-}
+}  */
 
 .grid-item:hover {
     background-color: rgba(0, 0, 0, 0);
@@ -144,6 +144,16 @@ a.utlink:active {
 .grid-item h3 {
     font-size: 1.4rem;
 }
+
+/* github repository link - sends user to the project's github repository */
+a.btn {
+    color: white;
+}
+
+a.btn:hover {
+    color: rgb(255, 146, 191);
+}
+
 
 .contact-info {
     background-color: rgb(209, 236, 255); 
@@ -246,6 +256,14 @@ a.gitportfolio {
 
     .grid-item:first-child {
     grid-column: span 4;
+    }
+
+    /* hides project description and github repository link for mobile devices only */
+    .grid-container div {
+        display: none;
+    }
+    a.btn {
+        display: none;
     }
     .contact-info {
         flex-wrap: nowrap;
