@@ -75,8 +75,8 @@ a.utlink:active {
 .Basicinfo p {
     flex: 1 1 100px;
     height: 100px;
-    line-height: 2.5;
-    padding: 25px;
+    padding: 20px;
+    font-size: 18px;
 }
 
 .Basicinfo img {
@@ -208,9 +208,10 @@ a.gitportfolio {
 
 /* get started with readjusting mobile responsive */
 
-@media screen and (max-width: 1024px) {
+ @media screen and (max-width: 1024px) {
     .Basicinfo p {
-        line-height: 2;
+        height: 0px;
+        padding: 5px;
     }
 
 }
